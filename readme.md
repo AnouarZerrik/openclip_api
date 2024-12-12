@@ -97,7 +97,7 @@ The API provides the following endpoints:
 **Example using `curl`:**
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"image_uris": ["https://placedog.net/500", "/images_host/your_image.png"]}' http://localhost:8000/embed/image
+curl -X POST -H "Content-Type: application/json" -d '{"image_uris": ["/images_host/your_image_1.png", "/images_host/your_image_1.png"]}' http://localhost:8000/embed/image
 ```
 
 *   **Remember to replace `your_image.png` with an actual image name inside your mounted directory `/path/on/host/images`**
