@@ -1,0 +1,3 @@
+model_cache/ViT-B-32_laion2b_s34b_b79k.pt
+app/__pycache__/openclip_utils.cpython-312.pyc
+*.png

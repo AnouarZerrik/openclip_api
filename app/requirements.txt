@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+langchain-experimental
+open_clip_torch
+pillow
+pydantic
+python-multipart
