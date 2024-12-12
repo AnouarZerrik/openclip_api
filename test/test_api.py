@@ -119,18 +119,17 @@ if __name__ == "__main__":
     # test_text_embedding(api_url, texts)
 
     # Test Image Embedding with URIs
-    image_uris = [
-        "/images_host/team.png"
-    ]  # Add your image urls
-    data = test_image_embedding_uris(api_url, image_uris)
+    # image_uris = [
+    #     "/images_host/team.png"
+    # ]  # Add your image urls
+    # data = test_image_embedding_uris(api_url, image_uris)
 
     # Test Image Upload
     # image_paths = [
     #     "C:/Users/UTENTE/Desktop/Projects/openclip_api/imgs/team.png"
     # ]
-    # data = test_image_upload_endpoint(api_url, image_paths)
+    data = test_image_upload_endpoint(api_url, image_paths)
     print("---------------------------")
-    
     print(len(data['embeddings']))
     
     # data = json.loads(data)
